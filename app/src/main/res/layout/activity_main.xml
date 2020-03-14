@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+   android:background="#03f0fc"
+    >
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_result"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Click button below"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:textColor="#fcbe03"-->
+<!--        android:textSize="30sp"-->
+
+<!--        />-->
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="389dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="192dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button"
+        android:layout_margin="10dp"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_width="152dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_margin="9dp"-->
+<!--        />-->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button2"/>
+
+
+</LinearLayout>
+
